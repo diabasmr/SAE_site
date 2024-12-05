@@ -3,6 +3,26 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 
+nav{
+    float: right;
+}
+
+nav li{
+    list-style-type:none;
+    font-size: 18px;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#fff
+}
+
+nav a:active{
+    color:yellow;
+}
+
 #mention, h3, h4{
     margin-left:0.3em;
     font-family: fantasy;
